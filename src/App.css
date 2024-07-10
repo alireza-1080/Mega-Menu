@@ -1,0 +1,29 @@
+.root-adjustifier {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.body {
+  width: 100vw;
+  max-width: 1536px;
+  height: 100vh;
+  max-height: 825.2px;
+  background-image: url(./images/bigscreen.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.menu-adjustifier {
+  width: 1200px;
+  height: fit-content;
+}
